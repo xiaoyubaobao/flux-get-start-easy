@@ -7,6 +7,9 @@ metadata:
     app: nginx
   annotations:
     fluxcd.io/tag.nginx: glob:1.14.2
+    fluxcd.io/locked_msg: 1.13.12 do not work
+    fluxcd.io/locked_user: zhangjun <zhangjun@paratera.com>
+    fluxcd.io/locked: 'true'
 spec:
   replicas: 3
   selector:
